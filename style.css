@@ -1,0 +1,348 @@
+@font-face {
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: black;
+    display: flex;
+}
+.logo{
+    /* background-color: blue; */
+    width: 30%;
+}
+.logo>img{
+    margin-left: 80px;
+}
+.menu{
+    /* background-color: chocolate; */
+    width: 40%;
+    margin-top: 12px;
+}
+.list>li{
+    display: inline;
+    color: white;
+    margin-right: 30px;
+ 
+}
+.butn{
+    /* background-color: cyan; */
+    width: 30%;
+    color: white;
+    margin-top: 15px;
+}
+.butn #butn1{
+    border-radius: 25px;
+    color: white;
+    padding: 15px;
+    border-color: white;
+    background-color: black;
+}
+.butn #butn2{
+    border-radius: 25px;
+    color:white;
+    padding: 15px;
+    border-color: red;
+    background-color: red;
+}
+#butn2>img{
+    width: 20px;
+    margin-left: 10px;
+}
+.logo>img{
+    width: 170px;
+    height: 80px;
+}
+.slide>img{
+    width: 100%;
+}
+.intro{
+    background-color: black;
+}
+.intro>.content>h1{
+    color: white;
+    height: 35px;
+}
+.intro>.content>h2{
+    color: white;
+    height: 35px;
+}
+.intro>.content>p{
+    color: white;
+    height: 35px;
+}
+.content{
+    text-align: center;
+    padding: 50px;
+}
+.content>h1>span{
+    font-family: futurak;
+    font-size: 50px;
+
+}
+.card1>img{
+    width: 180px;
+    height: 80px;
+    border-radius: 3px;
+    padding: 25px;
+    background-color: white;
+}
+.card1butn>button{
+    border-radius: 25px;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-color: white;
+    background-color: black;  
+}
+.card{
+    display: inline-block;
+}
+.card-container{
+    text-align: center;
+    padding-bottom: 120px;
+    
+}
+.center-card{
+    margin: 0px 20px;
+}
+.logoimgcontent{
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-top: 2px;
+    background-image: url(images/logoimg.webp);
+    background-repeat: no-repeat;
+    height: 1090px;
+    background-position: right;
+}
+/* .imgelogo>img{
+    height: 300px;
+    padding-left: 700px;
+} */
+.headcontent{
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+    line-height: 20px;
+}
+.headcontent>h1>span{
+    font-family: futurak;
+    font-size: 50px;
+    
+}
+.headcontent>h1{
+    font-size: 50px;
+}
+.headcontent>img{
+    font-size: 50px;
+}
+#head{
+    color: red;
+    letter-spacing: 10px;
+}
+.headcontent1{
+    color: white;
+    line-height: 10px;
+    
+}
+.headcontent1>h2>span{
+    font-family: futurak;
+    width: 20px;
+}
+.redimge>img{
+    width: 450px;
+    height: 250px;
+    border-radius: 5px;
+}
+.redimge{
+    display: inline;
+}
+.main-redimge{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.buttn>button{
+    display: inline;
+    border-radius: 25px;
+    color: white;
+    padding: 15px;
+    border-color: white;
+    background-color: black;
+}
+.buttn>button{
+    margin-top: 40px;
+}
+.exp-logo{
+    background-color: black;
+    height: 450px;
+    color: white;
+    padding-top: 5px;
+    font-size: 30px;
+    line-height: 25px;
+  display: flex;
+  justify-content: center; 
+}
+.exp-logo1{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 10px;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+   
+    
+}
+.centr-card{
+    margin: 0px 20px;
+}
+.exp-logo1>h1>span{
+    font-family: futurak;
+    width: 20px;
+    
+}
+.exp1>img{
+    width: 310px;
+    height: 220px;
+}
+.font-size{
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    
+}
+.centr{
+    margin: 0px 20px;
+}
+.font-size>h5>span{
+    font-family: futurak;
+    font-size: 25px;
+}
+.font-size>p>span{
+    font-size: 25px;
+}
+.bttn>button{
+    border-radius: 25px;
+    color: white;
+    padding: 15px;
+    border-color: white;
+    background-color: black;
+}
+#red{
+    color: red;
+}
+.centerimgee{
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-top: 1px;
+}
+.redimge1>img{
+    width: 550px;
+    height: 300px;
+    border-radius: 5px;
+}
+.buttncenter>button{
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+.main-div{
+    height: 1620px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+.box1{
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+}
+.box1>img{
+    margin: 20px 110px 10px;
+}
+#small{
+    color: red;
+    letter-spacing: 3px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+#os{
+    font-size: 30px;
+}
+.contnt>h1{
+    color: white;
+}
+.imgeee>img{
+    width: 200px;
+    height: 200px;
+}
+.imgeee{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.footer{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.932);
+    background-image: url(images/logoimg.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.loogoo>img{
+    width: 180px;
+    height: 80px;
+    margin-right: 860px;
+}
+
+.para>p{
+    color: white;
+    margin-right: 860px;
+}
+.para{
+    width: 250px;
+    color: rgba(245, 222, 179, 0.925);
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 500px;
+    background-color: blue;
+}
+.imge>img{
+    width: 120px;
+    height: 80px;
+    margin-left: 20px;
+}
+.right{
+    text-align: justify;
+}
+#blue{
+    color: tomato;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
